@@ -1,0 +1,34 @@
+{
+    "name": "pilotocfdi",
+    "type": "library",
+    "description": "Libreria para generar xml para cfdi 3.3 , converir las keys del sat a .pem",
+    "keywords": [
+        "date",
+        "time",
+        "DateTime"
+      ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piloto Automatico",
+            "email": "piloto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "nesbot/carbon": "~1.14"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+    	"psr-0":{
+       "Cfdi":"cfdi/src",
+       "Csd":"csd/src"
+        }
+    	      
+    }
+
+}
+
