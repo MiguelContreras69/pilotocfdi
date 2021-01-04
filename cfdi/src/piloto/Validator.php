@@ -85,7 +85,7 @@ class Validator {
 
         return true;
     }
-
+// realiza validaciones su mismo nombre lo dice
     private function validateEnum($params, $attribute, $value) {
         if (!in_array($value, $params)) {
             throw new CfdiException(sprintf("The '%s' i´snt a valid value for '%s' field SAT Schema", $value, $attribute));
